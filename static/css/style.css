@@ -79,6 +79,11 @@ ul {
 html {
     font-size: 14px;
 }
+/*　クラス毎*/
+.v_line_left {
+    padding-left: 5px;
+    padding-left: 5%;
+  }
 
 @media (min-width: 768px) {
     html {
