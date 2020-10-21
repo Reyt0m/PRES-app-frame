@@ -49,16 +49,6 @@ html {
 #side-content{
     margin-top:10%;
 }
-table,thead,tr, th, td {
-    border-top:0.5px solid;
-    border-bottom:0.5px solid;
-    }
-table{
-    border:0.5px solid;
-}
-thead{
-    background-color:#F5F5F5;
-}
 
 .imagePreview {
     width: 100%;
@@ -86,19 +76,12 @@ thead{
 
 @media (max-width:767px) {
 
-    table{
-        margin:0;
-        padding:0;
-    }
 
     #side{
         display:none;
     }
     #menu{
         background-color:white;
-    }
-    table{
-        font-size:10px;
     }
 
 }

@@ -8,7 +8,6 @@
     <title>First</title>
     <!-- のCSS読み込み -->
     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../static/css/style.css" rel="stylesheet">
     <link href="../static/css/frame.css" rel="stylesheet">
     <!-- jQuery読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -27,38 +26,28 @@
 
 
     <main role="main">
-        <div class="container">
+        <div class="container-fluid">
             <h1 class="jumbotron-heading">2020</h1>
             <a href="new-page1.html">+新しい研究</a>
             <div class="row no-gutters" position="relative">
-                <div class="col-md-8 mr-auto">
-                    <div class="card mb-4 shadow-sm row">
-                        <a class="card-body text-dark" href="card-content1.html" class="card">
-                            <p class="card-text">kaiA 非存在下における減衰振動の発生メカニズム</p>
-                            <p class="card-text">責任者:大滝翔士</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <ui class="list-group-horizontal">
-                                    <li class="group-item">
-                                        <p>結果の入力</p>
-                                    </li>
-                                    <li class="group-item">
-                                        <p>プラスミド抽出</p>
-                                    </li>
-                                    <li class="group-item">
-                                        <p>調査・手順の確認</p>
-                                    </li>
-                                    <li class="group-item">
-                                        <p>セルフライゲーション</p>
-                                    </li>
-                                    <li class="group-item">
-                                        <p>調査・手順の確認</p>
-                                    </li>
-                                    <li class="group-item">
-                                        <p>ミュータジェネシスキッドによるDNA断片の複製</p>
-                                    </li>
-                                </ui>
-                            </div>
-                        </a>
+                <div class="offset-md-1 col-md-7 mr-auto">
+                    <div class="card row no-gutters small mb-4 shadow-sm ">
+                        <div class="col-md-6 card-text">kaiA 非存在下における減衰振動の発生メカニズム</div>
+                        <div class="offset-md-1 col-md-3 card-text">責任者:大滝翔士</div>
+                        <table class="table table-borderless small offset-md-1 ">
+                            <tr>
+                                <td>結果の入力</td>
+                                <td>プラスミド抽出</td>
+                            </tr>
+                            <tr>
+                                <td>調査・手順の確認</td>
+                                <td>セルフライゲーション</td>
+                            </tr>
+                            <tr>
+                                <td>調査・手順の確認</td>
+                                <td>ミュータジェネシスキッドによるDNA断片の複製</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
                 <div id="side" class="sidebar col-md-3" >
