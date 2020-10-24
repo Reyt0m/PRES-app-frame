@@ -56,10 +56,22 @@ ul {
     height: 180px;
     background-position: center center;
     background-size: cover;
-    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 0 1px 1px rgba(87, 79, 79, 0.3);
     display: inline-block;
 }
+.v_line{
+    border-left: solid;
+    padding-left: 2px;
+}
 
+#circle {
+	width:50px;
+	height:50px;
+	background:#81C7D4;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;	/* 横幅&高さの1/2 */
+}
 
 /*条件付き設定*/
 @media (min-width: 768px) {

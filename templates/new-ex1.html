@@ -8,7 +8,6 @@
     <title>new-ex1</title>
     <!-- のCSS読み込み -->
     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../static/css/style.css" rel="stylesheet">
     <link href="../static/css/frame.css" rel="stylesheet">
     <!-- jQuery読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -19,32 +18,33 @@
 <body>
 
     <main role="main">
-        <div class="container">
+        <div class="container-fuluid mt-5">
             <div class="row">
                 <div class="col-md-2">
-                    <div class="list-unstyled border-left pl-10">
+                    <div class="v_line list-unstyled pl-10 ml-4">
                         <ui>
-                            <li class=" text-nowrap small pl-10 ">ファイル作成</li>
+                            <li class="text-nowrap small pl-3 my-2">ファイル作成</li>
                             <br>
-                            <li class=" text-nowrap small pl-10 ">調査・手順の入力</li>
+                            <li class="text-nowrap small pl-3 my-2">調査・手順の入力</li>
                             <br>
-                            <li class=" text-nowrap small pl-10 ">調査・手順の確認</li>
-                            <li class=" text-nowrap small pl-10 ">結果の入力</li>
-                            <li class=" text-nowrap small pl-10 ">考察の入力</li>
-                            <li class=" text-nowrap small pl-10 ">最終確認</li>
+                            <li class="text-nowrap small pl-3 my-2">調査・手順の確認</li>
+                            <li class="text-nowrap small pl-3 my-2">結果の入力</li>
+                            <li class="text-nowrap small pl-3 my-2">考察の入力</li>
+                            <li class="text-nowrap small pl-3 my-2">最終確認</li>
                         </ui>
                     </div>
-                        <p class=" text-nowrap small pl-10 ">実験完了・再実験・一時停止</p>
                 </div>
                 <div class="col-md-8 ">
                     <div class="card item-align-center">
                         <p class="p-3 text-dark card-body">プラスミド抽出 / 担当者:松村 / 進行中</p>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group my-4">
                         <label for="exampleFormControlTextarea1">実験の目的</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                     </div>
-                    <button class="bg-gray"><a href="new-ex2.html">調査・手順の入力へ進む</a></button>
+                    <button class="btn rounded-0 offset-4 col-4 my-2 py-1 " style="background-color:#c4c4c4;"><a href="new-ex2.html">調査・手順の入力へ進む</a></button>
+                    <button class="btn rounded-0 offset-4 col-4 my-2 py-1 " style="background-color:#c4c4c4;"><a href="index.html">一時保存</a></button>
+                    <button class="btn rounded-0 offset-4 col-4 my-2 py-1 " style="background-color:#c4c4c4;"><a href="index.html">実験ファイルを削除</a></button>
                 </div>
             </div>
         </div>
